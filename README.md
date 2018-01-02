@@ -1,6 +1,6 @@
 # random-quote-machine
 
-Random Quote Machine built on VueJS - [#FreeCodeCamp Project](https://github.com/lexmartinez/random-quote-machine/blob/master/CHALLENGE.md) : [#100DaysOfCode](http://100daysofcode.com/)
+:slot_machine: Random Quote Machine built on VueJS - [#FreeCodeCamp Project](https://github.com/lexmartinez/random-quote-machine/blob/master/CHALLENGE.md) : [#100DaysOfCode](http://100daysofcode.com/)
                                    
 > Day 7 of #100DaysOfCode Challenge
 
@@ -22,7 +22,7 @@ npm run build --report
 
 ## Screenshots
 
-![](https://github.com/lexmartinez/random-quote-machine/raw/master/screenshots/screenshot-1.png) 
+![](https://github.com/lexmartinez/random-quote-machine/raw/master/static/screenshot-1.png) 
 
 ## License
 
