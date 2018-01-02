@@ -3,7 +3,16 @@
     <blockquote :style="{color: color}">
       <span v-html="quote.content"></span>
       <footer>{{quote.title}}</footer>
-      <a @click="getQuote"><i class="fa fa-random"></i> <span class="atext">New Quote</span></a> &nbsp; <a @click="getQuote"><i class="fa fa-twitter"></i> <span class="atext">Tweet</span></a>
+      <a @click="getQuote"><i class="fa fa-random"></i> <span class="atext">New Quote</span></a> &nbsp;
+        <social-sharing :title="`${quote.content} - ${quote.title}`" :url="''"
+                        inline-template>
+
+          <network network="twitter">
+           <a><i class="fa fa-twitter"></i> <span class="atext">Tweet</span></a>
+          </network>
+
+        </social-sharing>
+
     </blockquote>
   </div>
 </template>
