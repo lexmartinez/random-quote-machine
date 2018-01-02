@@ -5,6 +5,7 @@ import RandomQuote from '@/components/RandomQuote'
 Vue.use(Router)
 
 export default new Router({
+  history: false,
   routes: [
     {
       path: '/',
