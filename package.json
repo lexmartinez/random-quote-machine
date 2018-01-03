@@ -15,8 +15,7 @@
   "keywords": [
     "vuejs",
     "freecodecamp",
-    "quote-machine",
-    "100daysofcode"
+    "quote-machine"
   ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
